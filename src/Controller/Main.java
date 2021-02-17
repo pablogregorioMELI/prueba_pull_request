@@ -3,7 +3,7 @@ package Controller;
 import java.util.Scanner;
 
 public class Main {
-    public static void numerosPares(int numero){
+    public static void pairNumbers(int numero){
         for (int i = 0; i <= numero; i++) {
             if (i % 2 == 0) {
                 System.out.println(i);
@@ -11,7 +11,7 @@ public class Main {
         }
     }
 
-    public static void numerosMultiplos(int n, int m){
+    public static void multipleNumbers(int n, int m){
         for (int i = 0; i <= m; i++) {
             if (i%n == 0) {
                 System.out.println(i);
@@ -19,7 +19,7 @@ public class Main {
         }
     }
 
-    public static boolean esPrimo(int n){
+    public static boolean isPrime(int n){
             if (n <= 1)
                 return false;
 
@@ -32,7 +32,7 @@ public class Main {
             return true;
     }
 
-    public static void numerosPrimos(int numero){
+    public static void primeNumbers(int numero){
         int count;
 
         for (int i = 1; i <= numero; i++) {
